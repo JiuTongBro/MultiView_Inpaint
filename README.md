@@ -2,4 +2,6 @@
 
 Code Releasement for 'Generative Object Insertion in Gaussian Splatting with a Multi-View  Diffusion Model'
 
-Codes and data will be released after paper acceptance.
+Accepted by Visual Informatics. [[Paper Link]](https://www.sciencedirect.com/science/article/pii/S2468502X2500021X)
+
+- We are still working on code releasement.
