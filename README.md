@@ -21,7 +21,7 @@ In our running process, we need to first run in the `gs-simp` to generate inpain
 
 The 'gs-simp', 'svd_inpaint1', and 'Segment-and-Track-Anything' require three individual environments. The 'metrics' only contains a few dependencies that can be easily installed. 
 
-The environments for those modules are almost the same with the original repo, we just modified the codes based on their realization. A few packages may also needs to be installed manually, but they are all common pacages and can be easily installed with `pip` manually.
+The environments for those modules are almost the same with the original repo, we just modified the codes based on their realization. A few packages may also needs to be installed manually, but they are all common pacages and can be easily installed with `pip`.
 
 - Install the env for `gs-simp` following the guidance in [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting). Note that we use the Gaussian Renderer with Depth output from [here](https://github.com/JonathonLuiten/diff-gaussian-rasterization-w-depth), so you need to install this renderer instead of the officaial one.
 - Install the env for `svd_inpaint1` following the guidance in [SVD](https://github.com/Stability-AI/generative-models).
