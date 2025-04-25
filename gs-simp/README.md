@@ -54,4 +54,16 @@ To reproduce our exp, we provide our inpainted images for metric computation [he
 
 Now move to the `svd_inpaint1` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/svd_inpaint1) for the next step.
 
+# Second-stage Running
+
+After completing multi-view inpainting and segmentation, reconstruct the object:
+```
+bash scripts/rec.sh {scenename} {casename} {gpuid} {ctrlid}
+```
+The results will be saved in `output_rec`.
+
+For rendering and visualization, run:
+```
+bash scripts/vis.sh {scenename}_{casename} {gpuid} {ctrlid}
+```
 
