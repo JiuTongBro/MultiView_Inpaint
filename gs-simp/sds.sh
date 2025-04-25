@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python sds_train.py -s dataset/garden & CUDA_VISIBLE_DEVICES=1 python sds_train.py -s dataset/bicycle & CUDA_VISIBLE_DEVICES=2 python sds_train.py -s dataset/kitchen & CUDA_VISIBLE_DEVICES=3 python sds_train.py -s dataset/stump

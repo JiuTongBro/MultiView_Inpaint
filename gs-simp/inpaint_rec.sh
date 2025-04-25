@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u inpaint_rec.py -s dataset/garden & CUDA_VISIBLE_DEVICES=1 python -u inpaint_rec.py -s dataset/kitchen & CUDA_VISIBLE_DEVICES=2 python -u inpaint_rec.py -s dataset/stump & CUDA_VISIBLE_DEVICES=3 python -u inpaint_rec.py -s dataset/bicycle
