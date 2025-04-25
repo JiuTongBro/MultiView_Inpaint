@@ -5,7 +5,7 @@ import numpy as np
 import sys
 from helpers import *
 
-exp = sys.argv[1]
+exp = 'ours'
 
 pd_sfxs = {'ours': '/ours_30000/renders',}
 gt_sfxs = {'ours': '/ours_30000/renders',}
