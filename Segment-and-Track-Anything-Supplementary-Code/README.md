@@ -1,6 +1,6 @@
 Here we add two more codes to the orginal 'Segment-and-Track-Anything', which supports the segmentation on our results:
 ```
-bash seg.sh {scenename} {casename} {ctrlid} {gpu}
+bash seg.sh {scenename} {casename} {ctrlid} {gpuid}
 ```
 The results will be outputed to `gs-simp/inpaint/sam_mask`.
 
