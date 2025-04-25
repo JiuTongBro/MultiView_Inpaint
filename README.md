@@ -35,4 +35,8 @@ The environments for those modules are almost the same with the original repo, w
 - Finally, go to the `gs-simp` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/gs-simp) and follow the second-part running.
 - (Optionnal) Run the `metrics/cmp.py` for metric evaluation.
 
+## FAQ
+
+If there is any problem, please open an issue. We will try to assist if we find time.
+
 
