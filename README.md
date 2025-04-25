@@ -31,7 +31,7 @@ The environments for those modules are almost the same with the original repo, w
 
 Note that, you may need to configure the input and output paths in the running files by yourselves.
 
-- Firstly, go to the `gs-simp` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/gs-simp) and follow the first-stage running.
+- Firstly, go to the `gs-simp` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/gs-simp), follow the preparation and the first-stage running.
 - Secondly, go to the `svd_inpaint1` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/svd_inpaint1) to run the multi-view inpainting.
 - Thirdly, go to the `Segment-and-Track-Anything` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/Segment-and-Track-Anything-Supplementary-Code) to run the re-integrate the inpainted object into the scene background.
 - Finally, go to the `gs-simp` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/gs-simp) and follow the second-part running.
