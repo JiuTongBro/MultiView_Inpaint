@@ -50,6 +50,7 @@ python ctrl_inpaint.py
 The results will be saved in the `inpaint/ctrl` folder.
 
 We generate ten 2D inpainting samples for each case, each one named as `ctrl_{ctrlid}.png`. Copy the `inpaint/ctrl` to `inpaint/ctrl1`, and delete the unwanted inpaintint results.
+To reproduce our exp, we provide our inpainted images for metric computation [here](https://huggingface.co/jtbzhl/mvinpainter_svd/blob/main/ctrl1.zip).
 
 Now move to the `svd_inpaint1` [directory](https://github.com/JiuTongBro/MultiView_Inpaint/tree/main/svd_inpaint1) for the next step.
 
