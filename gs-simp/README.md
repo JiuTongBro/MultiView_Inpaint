@@ -1,6 +1,6 @@
 # Preparation
 
-Download the processed dataset `gsdataset.zip` from [huggingface](https://huggingface.co/datasets/jtbzhl/mvinpainter_svd/tree/main). Unzip it and rename it as the `dataset`, put it under the `gs-simp` folder.
+Download the processed dataset [here](https://huggingface.co/datasets/jtbzhl/mvinpainter_svd/blob/main/gsdataset.zip). Unzip it and rename it as the `dataset`, put it under the `gs-simp` folder.
 
 Reconstruct the original background GS scenes using the [Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) codes. For most of the cases, we set the `sh_degreee=1`. But if you would like to generate some reflective objects, it is suggested to set the `sh_degreee=3`. Put the reconstructed scenes in the `output` folder, and place it under the `gs-simp` folder.
 
