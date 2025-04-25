@@ -17,7 +17,6 @@ print(pd_sfx, gt_sfx)
 
 n_frame = 10
 skips = []
-temporal_skips = []
 root = f'/home/zhonghongliang/ndpro/metric/vis/cmp/{exp}'
 out_path = f'/home/zhonghongliang/ndpro/metric/results/1124_1/cmp_{exp}.json'
 
