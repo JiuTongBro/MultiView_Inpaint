@@ -32,12 +32,7 @@ front_dict = {
 text_dict = {# Mip-NeRF
              'bicycle_bear': 'a toy bear sitting on the bench',
              'bicycle_dog': 'a toy dog sitting on the bench',
-             'bonsai_monkey': 'a golden monkey sitting on the table',
-             'bonsai_telephone': 'a telephone on the table',
              'kitchen_cup': 'a paper cup on the table',
-             'kitchen_tomato': 'a tomato on the table',
-             # 'room': 'a sofa on the floor',
-             'stump_box': 'a hanging wooden box',
              'stump_flower': 'a yellow flower',
              'garden_cake': 'a birthday cake on the table',
              'garden_gnome': 'a garden gnome on the table',
@@ -45,18 +40,10 @@ text_dict = {# Mip-NeRF
              'counter_grinder': 'a pepper grinder on the table',
 
              # Spin-NeRF
-             '1_buddha': 'a sitting buddha on the bench',
-             '2_stool': 'a low stool on the floor',
              '2_suitcase': 'a suitcase on the floor',
-             '3_flowerpot': 'a flower pot',
-             '4_sculpture': 'a sculpture on the stair',
-             # '7': 'a fire hydrant on the floor',
              '9_trash bin': 'a trash bin on the floor',
              '10_candlestick': 'a candlestick on the bench',
-             # '12': 'a wooden chair on the floor',
-             'book_flower': 'a flower',
              'trash_school bag': 'a school bag on the floor',
-             'trash_suitcase': 'a suitcase on the floor',
              }
 
 
